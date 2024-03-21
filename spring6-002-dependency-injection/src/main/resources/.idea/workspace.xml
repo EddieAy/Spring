@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45bfe81d-9a01-4941-af57-325e4b08ad64" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Spring6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../spring6-001-start/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../spring6-001-start/src/main/java/zera/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../spring6-001-start/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../spring6-001-start/src/main/resources/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../spring6-001-start/src/test/java/zera/test/SpringTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/zera/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/zera/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/zera/dao/VipDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/zera/service/CustomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/zera/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-config2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/java/zera/SpringTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\dev\apache-maven-3.9.6-bin\apache-maven-3.9.6\repository" />
+        <option name="mavenHome" value="C:\dev\apache-maven-3.9.6-bin\apache-maven-3.9.6" />
+        <option name="userSettingsFile" value="C:\dev\apache-maven-3.9.6-bin\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2dx9NDmRvFHf57q2HFtrkiBOQ1i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/ZERA/Java_Project/Leetcode",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45bfe81d-9a01-4941-af57-325e4b08ad64" name="Changes" comment="" />
+      <created>1710938819841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710938819841</updated>
+      <workItem from="1710938820847" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
