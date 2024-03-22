@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="userDaoBean" class="zera.dao.UserDao"/>
@@ -48,6 +49,15 @@
             </props>
         </property>
     </bean>
+
+    <bean class="zera.bean.MathBean" id="mathBean">
+        <property name="result">
+            <value><![CDATA[2 < 3]]></value>
+        </property>
+    </bean>
+
+    <bean class="java.util.Date" id="date"/>
+    <bean class="zera.bean.PersonPInjection" id="personPInjection" p:name="qwe" p:birth-ref="date"/>
 
 
 </beans>
