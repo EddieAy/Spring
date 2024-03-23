@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/spring6-002-dependency-injection/pom.xml" />
         <option value="$PROJECT_DIR$/spring6-003-scope/pom.xml" />
         <option value="$PROJECT_DIR$/spring6-004-bean-instantiation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-005-lifecycle/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
