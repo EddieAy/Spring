@@ -2,10 +2,22 @@ package zera.beans;
 
 import org.springframework.beans.factory.FactoryBean;
 
-public class PersonBean implements FactoryBean {
+import java.text.SimpleDateFormat;
+
+public class PersonBean implements FactoryBean<Person> {
+
+    private String strDate;
+
+    public void setStrDate(String strDate) {
+        this.strDate = strDate;
+    }
+
     @Override
-    public Object getObject() throws Exception {
-        return new Person();
+    public Person getObject() throws Exception {
+        Person person = new Person();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        person.setBirth(simpleDateFormat.parse(this.strDate));
+        return person;
     }
 
     @Override
