@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring6-010-transaction" />
         <module name="spring6-003-scope" />
+        <module name="spring6-007-ioc-annotation" />
         <module name="spring6-002-dependency-injection" />
-        <module name="spring6-004-bean-instantiation" />
         <module name="spring6-005-lifecycle" />
+        <module name="spring6-006-annotation" />
+        <module name="spring6-009-aop" />
+        <module name="spring6-008-dynamic-proxy" />
+        <module name="spring6-004-bean-instantiation" />
         <module name="spring6-001-start" />
       </profile>
     </annotationProcessing>
