@@ -1,6 +1,5 @@
 package zera.service.impl;
 
-//import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -10,11 +9,10 @@ import zera.service.AccountService;
 
 import java.util.List;
 
+
 @Transactional
 @Service("accountService")
 public class AccountServiceImpl implements AccountService {
-
-
     @Autowired
     private AccountMapper accountMapper;
 
@@ -25,13 +23,11 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public int deleteByActno(String actno) {
-
         return accountMapper.deleteByActno(actno);
     }
 
     @Override
     public int update(Account act) {
-
         return accountMapper.update(act);
     }
 
@@ -48,21 +44,15 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public void transfer(String fromActno, String toActno, double money) {
         Account fromAct = accountMapper.selectByActno(fromActno);
-        if(fromAct.getBalance() < money){
-            throw new RuntimeException("Money not enough");
+        if (fromAct.getBalance() < money) {
+            throw new RuntimeException("余额不足");
         }
         Account toAct = accountMapper.selectByActno(toActno);
         fromAct.setBalance(fromAct.getBalance() - money);
         toAct.setBalance(toAct.getBalance() + money);
         int count = accountMapper.update(fromAct);
-
-        String s = null;
-        s.toString();
-
-
-        count+=accountMapper.update(toAct);
-
-        if(count != 2){
+        count += accountMapper.update(toAct);
+        if (count != 2) {
             throw new RuntimeException("转账失败");
         }
     }

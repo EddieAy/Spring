@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>zera</groupId>
-    <artifactId>spring6-012-transaction</artifactId>
+    <artifactId>spring6-013-olddu</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -59,44 +59,14 @@
         </dependency>
 
 
+
+
         <dependency>
             <groupId>org.mybatis.generator</groupId>
             <artifactId>mybatis-generator-maven-plugin</artifactId>
             <version>1.4.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>jakarta.annotation</groupId>
-            <artifactId>jakarta.annotation-api</artifactId>
-            <version>2.1.1</version>
-        </dependency>
-
     </dependencies>
-
-    <build>
-        <!--可配置多个插件-->
-        <plugins>
-            <!--其中的一个插件：mybatis逆向工程插件-->
-            <plugin>
-                <!--插件的GAV坐标-->
-                <groupId>org.mybatis.generator</groupId>
-                <artifactId>mybatis-generator-maven-plugin</artifactId>
-                <version>1.4.1</version>
-                <!--允许覆盖-->
-                <configuration>
-                    <overwrite>true</overwrite>
-                </configuration>
-                <!--插件的依赖-->
-                <dependencies>
-                    <!--mysql驱动依赖-->
-                    <dependency>
-                        <groupId>mysql</groupId>
-                        <artifactId>mysql-connector-java</artifactId>
-                        <version>8.0.28</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
